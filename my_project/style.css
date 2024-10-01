@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background-color: bisque;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .heading {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .subheading {
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 10px;
+    cursor: grab;
+  }
+  .sub-subheading {
+    font-weight: normal;
+    margin-left: 30px;
+    font-size: 16px;
+  }
+  .inputField {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  /* Highlight during drag */
+  .drag-over {
+    border: 2px dashed #000;
+    background-color: #f0f0f0;
+  }
